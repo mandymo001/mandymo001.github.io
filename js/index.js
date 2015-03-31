@@ -139,12 +139,12 @@ function Platform() {
 	//3: Breakable (Go through)
 	//4: Vanishable 
 	//Setting the probability of which type of platforms should be shown at what score
-	if (score >= 5000) this.types = [2, 3, 3, 3, 4, 4, 4, 4];
-	else if (score >= 2000 && score < 5000) this.types = [2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4];
-	else if (score >= 1000 && score < 2000) this.types = [2, 2, 2, 3, 3, 3, 3, 3];
-	else if (score >= 500 && score < 1000) this.types = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3];
-	else if (score >= 100 && score < 500) this.types = [1, 1, 1, 1, 2, 2];
-	else this.types = [1];
+	if (score >= 5000) this.types = [2, 2, 2, 2, 2, 2, 2, 2];
+	else if (score >= 2000 && score < 5000) this.types = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+	else if (score >= 1000 && score < 2000) this.types = [2, 2, 2, 2, 2, 2, 2, 2];
+	else if (score >= 500 && score < 1000) this.types = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+	else if (score >= 100 && score < 500) this.types = [2, 2, 2, 2, 2, 2];
+	else this.types = [2];
 
 	this.type = this.types[Math.floor(Math.random() * this.types.length)];
 
