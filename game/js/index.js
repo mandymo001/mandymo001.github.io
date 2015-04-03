@@ -142,9 +142,9 @@ function Platform() {
 	if (score >= 5000) this.types = [2, 2, 2, 2, 2, 2, 2, 2];
 	else if (score >= 2000 && score < 5000) this.types = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
 	else if (score >= 1000 && score < 2000) this.types = [2, 2, 2, 2, 2, 2, 2, 2];
-	else if (score >= 500 && score < 1000) this.types = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
-	else if (score >= 100 && score < 500) this.types = [2, 2, 2, 2, 2, 2];
-	else this.types = [2];
+	else if (score >= 500 && score < 1000) this.types = [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4];
+	else if (score >= 100 && score < 500) this.types = [4, 4, 4, 4, 4, 4];
+	else this.types = [4];
 
 	this.type = this.types[Math.floor(Math.random() * this.types.length)];
 
